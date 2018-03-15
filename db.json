@@ -1,9 +1,903 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "cars": [{
+    "id": 1,
+    "model": "SC",
+    "make": "Lexus",
+    "year": 1996,
+    "img": "https://robohash.org/perferendissuscipitvoluptatem.png?size=50x50&set=set1",
+    "color": "Blue",
+    "presence": true,
+    "detail": "mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean"
+  }, {
+    "id": 2,
+    "model": "Sierra 2500",
+    "make": "GMC",
+    "year": 2011,
+    "img": "https://robohash.org/animivoluptaset.jpg?size=50x50&set=set1",
+    "color": "Violet",
+    "presence": false,
+    "detail": "et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in"
+  }, {
+    "id": 3,
+    "model": "GTI",
+    "make": "Volkswagen",
+    "year": 2004,
+    "img": "https://robohash.org/modiestdolorem.bmp?size=50x50&set=set1",
+    "color": "Aquamarine",
+    "presence": false,
+    "detail": "donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo"
+  }, {
+    "id": 4,
+    "model": "X5",
+    "make": "BMW",
+    "year": 2008,
+    "img": "https://robohash.org/harumdoloremqueconsequatur.jpg?size=50x50&set=set1",
+    "color": "Khaki",
+    "presence": false,
+    "detail": "id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim"
+  }, {
+    "id": 5,
+    "model": "S2000",
+    "make": "Honda",
+    "year": 2001,
+    "img": "https://robohash.org/autullammolestias.png?size=50x50&set=set1",
+    "color": "Indigo",
+    "presence": true,
+    "detail": "tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit"
+  }, {
+    "id": 6,
+    "model": "B-Series Plus",
+    "make": "Mazda",
+    "year": 2000,
+    "img": "https://robohash.org/voluptatumtemporibusrepudiandae.jpg?size=50x50&set=set1",
+    "color": "Purple",
+    "presence": false,
+    "detail": "morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend"
+  }, {
+    "id": 7,
+    "model": "CLK-Class",
+    "make": "Mercedes-Benz",
+    "year": 1998,
+    "img": "https://robohash.org/perferendisutnon.png?size=50x50&set=set1",
+    "color": "Blue",
+    "presence": false,
+    "detail": "tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea"
+  }, {
+    "id": 8,
+    "model": "Sidekick",
+    "make": "Suzuki",
+    "year": 1998,
+    "img": "https://robohash.org/doloresautnam.bmp?size=50x50&set=set1",
+    "color": "Orange",
+    "presence": false,
+    "detail": "ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac"
+  }, {
+    "id": 9,
+    "model": "Legacy",
+    "make": "Subaru",
+    "year": 1996,
+    "img": "https://robohash.org/deseruntquiaexplicabo.png?size=50x50&set=set1",
+    "color": "Mauv",
+    "presence": true,
+    "detail": "eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a"
+  }, {
+    "id": 10,
+    "model": "Viper",
+    "make": "Dodge",
+    "year": 2001,
+    "img": "https://robohash.org/quidoloremquererum.jpg?size=50x50&set=set1",
+    "color": "Mauv",
+    "presence": true,
+    "detail": "vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi"
+  }, {
+    "id": 11,
+    "model": "Golf",
+    "make": "Volkswagen",
+    "year": 1998,
+    "img": "https://robohash.org/laborumvoluptatemquaerat.bmp?size=50x50&set=set1",
+    "color": "Puce",
+    "presence": false,
+    "detail": "erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt"
+  }, {
+    "id": 12,
+    "model": "Grand Prix",
+    "make": "Pontiac",
+    "year": 1974,
+    "img": "https://robohash.org/doloreconsequaturbeatae.jpg?size=50x50&set=set1",
+    "color": "Crimson",
+    "presence": false,
+    "detail": "posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum"
+  }, {
+    "id": 13,
+    "model": "Relay",
+    "make": "Saturn",
+    "year": 2005,
+    "img": "https://robohash.org/remofficiisest.bmp?size=50x50&set=set1",
+    "color": "Blue",
+    "presence": false,
+    "detail": "lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus"
+  }, {
+    "id": 14,
+    "model": "M6",
+    "make": "BMW",
+    "year": 2006,
+    "img": "https://robohash.org/verosuscipitaut.jpg?size=50x50&set=set1",
+    "color": "Crimson",
+    "presence": false,
+    "detail": "congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis"
+  }, {
+    "id": 15,
+    "model": "XLR-V",
+    "make": "Cadillac",
+    "year": 2009,
+    "img": "https://robohash.org/eosporrovel.bmp?size=50x50&set=set1",
+    "color": "Purple",
+    "presence": false,
+    "detail": "cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non"
+  }, {
+    "id": 16,
+    "model": "Econoline E350",
+    "make": "Ford",
+    "year": 1998,
+    "img": "https://robohash.org/abmolestiaequis.png?size=50x50&set=set1",
+    "color": "Turquoise",
+    "presence": false,
+    "detail": "semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque"
+  }, {
+    "id": 17,
+    "model": "Ram 1500 Club",
+    "make": "Dodge",
+    "year": 1995,
+    "img": "https://robohash.org/vitaedoloralias.jpg?size=50x50&set=set1",
+    "color": "Yellow",
+    "presence": false,
+    "detail": "sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel"
+  }, {
+    "id": 18,
+    "model": "GS",
+    "make": "Lexus",
+    "year": 2006,
+    "img": "https://robohash.org/quiaplaceatdoloremque.bmp?size=50x50&set=set1",
+    "color": "Green",
+    "presence": false,
+    "detail": "augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit"
+  }, {
+    "id": 19,
+    "model": "RL",
+    "make": "Acura",
+    "year": 2003,
+    "img": "https://robohash.org/errorpraesentiumnemo.png?size=50x50&set=set1",
+    "color": "Yellow",
+    "presence": true,
+    "detail": "ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede"
+  }, {
+    "id": 20,
+    "model": "X-Type",
+    "make": "Jaguar",
+    "year": 2006,
+    "img": "https://robohash.org/inventoreconsequunturiusto.bmp?size=50x50&set=set1",
+    "color": "Goldenrod",
+    "presence": true,
+    "detail": "phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices"
+  }, {
+    "id": 21,
+    "model": "Supra",
+    "make": "Toyota",
+    "year": 1997,
+    "img": "https://robohash.org/utcumdistinctio.bmp?size=50x50&set=set1",
+    "color": "Crimson",
+    "presence": true,
+    "detail": "aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel"
+  }, {
+    "id": 22,
+    "model": "Impala",
+    "make": "Chevrolet",
+    "year": 2001,
+    "img": "https://robohash.org/dictaconsequunturquia.png?size=50x50&set=set1",
+    "color": "Orange",
+    "presence": false,
+    "detail": "vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget"
+  }, {
+    "id": 23,
+    "model": "Capri",
+    "make": "Mercury",
+    "year": 1993,
+    "img": "https://robohash.org/voluptasutsed.png?size=50x50&set=set1",
+    "color": "Crimson",
+    "presence": false,
+    "detail": "leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et"
+  }, {
+    "id": 24,
+    "model": "Cayman",
+    "make": "Porsche",
+    "year": 2007,
+    "img": "https://robohash.org/fugadoloremqueaut.bmp?size=50x50&set=set1",
+    "color": "Pink",
+    "presence": false,
+    "detail": "ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu"
+  }, {
+    "id": 25,
+    "model": "SL-Class",
+    "make": "Mercedes-Benz",
+    "year": 2012,
+    "img": "https://robohash.org/nonautqui.jpg?size=50x50&set=set1",
+    "color": "Goldenrod",
+    "presence": false,
+    "detail": "in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam"
+  }, {
+    "id": 26,
+    "model": "Quattroporte",
+    "make": "Maserati",
+    "year": 2007,
+    "img": "https://robohash.org/dolormollitiafacere.jpg?size=50x50&set=set1",
+    "color": "Green",
+    "presence": false,
+    "detail": "hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit"
+  }, {
+    "id": 27,
+    "model": "Sonoma Club Coupe",
+    "make": "GMC",
+    "year": 1998,
+    "img": "https://robohash.org/quisquamcumqui.bmp?size=50x50&set=set1",
+    "color": "Khaki",
+    "presence": true,
+    "detail": "ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu"
+  }, {
+    "id": 28,
+    "model": "Voyager",
+    "make": "Plymouth",
+    "year": 1985,
+    "img": "https://robohash.org/officiaquisvoluptatum.bmp?size=50x50&set=set1",
+    "color": "Orange",
+    "presence": true,
+    "detail": "scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum"
+  }, {
+    "id": 29,
+    "model": "Previa",
+    "make": "Toyota",
+    "year": 1993,
+    "img": "https://robohash.org/rerumquaeassumenda.png?size=50x50&set=set1",
+    "color": "Aquamarine",
+    "presence": false,
+    "detail": "tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id"
+  }, {
+    "id": 30,
+    "model": "X6 M",
+    "make": "BMW",
+    "year": 2011,
+    "img": "https://robohash.org/mollitiacumqueperspiciatis.png?size=50x50&set=set1",
+    "color": "Blue",
+    "presence": false,
+    "detail": "nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam"
+  }, {
+    "id": 31,
+    "model": "Maxima",
+    "make": "Nissan",
+    "year": 2000,
+    "img": "https://robohash.org/reprehenderitquiaomnis.jpg?size=50x50&set=set1",
+    "color": "Khaki",
+    "presence": true,
+    "detail": "odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis"
+  }, {
+    "id": 32,
+    "model": "Mirage",
+    "make": "Mitsubishi",
+    "year": 1992,
+    "img": "https://robohash.org/illovoluptatemporro.png?size=50x50&set=set1",
+    "color": "Maroon",
+    "presence": true,
+    "detail": "pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum"
+  }, {
+    "id": 33,
+    "model": "Pilot",
+    "make": "Honda",
+    "year": 2006,
+    "img": "https://robohash.org/nonestsapiente.png?size=50x50&set=set1",
+    "color": "Puce",
+    "presence": true,
+    "detail": "donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar"
+  }, {
+    "id": 34,
+    "model": "Ram 1500 Club",
+    "make": "Dodge",
+    "year": 2001,
+    "img": "https://robohash.org/voluptasenimrepellat.png?size=50x50&set=set1",
+    "color": "Aquamarine",
+    "presence": true,
+    "detail": "praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede"
+  }, {
+    "id": 35,
+    "model": "LTD",
+    "make": "Ford",
+    "year": 1985,
+    "img": "https://robohash.org/namnondeleniti.png?size=50x50&set=set1",
+    "color": "Maroon",
+    "presence": false,
+    "detail": "eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna"
+  }, {
+    "id": 36,
+    "model": "Amigo",
+    "make": "Isuzu",
+    "year": 1998,
+    "img": "https://robohash.org/similiquererumreprehenderit.bmp?size=50x50&set=set1",
+    "color": "Purple",
+    "presence": true,
+    "detail": "nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et"
+  }, {
+    "id": 37,
+    "model": "LS",
+    "make": "Lexus",
+    "year": 2010,
+    "img": "https://robohash.org/temporaeaesse.jpg?size=50x50&set=set1",
+    "color": "Fuscia",
+    "presence": false,
+    "detail": "vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar"
+  }, {
+    "id": 38,
+    "model": "Corvette",
+    "make": "Chevrolet",
+    "year": 1988,
+    "img": "https://robohash.org/solutarecusandaenihil.bmp?size=50x50&set=set1",
+    "color": "Red",
+    "presence": false,
+    "detail": "in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget"
+  }, {
+    "id": 39,
+    "model": "Monte Carlo",
+    "make": "Chevrolet",
+    "year": 2005,
+    "img": "https://robohash.org/voluptatesnobiset.jpg?size=50x50&set=set1",
+    "color": "Pink",
+    "presence": true,
+    "detail": "et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi"
+  }, {
+    "id": 40,
+    "model": "GTO",
+    "make": "Mitsubishi",
+    "year": 1991,
+    "img": "https://robohash.org/natusvoluptatibusconsequatur.jpg?size=50x50&set=set1",
+    "color": "Maroon",
+    "presence": true,
+    "detail": "nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas"
+  }, {
+    "id": 41,
+    "model": "500SL",
+    "make": "Mercedes-Benz",
+    "year": 1992,
+    "img": "https://robohash.org/dignissimossintperspiciatis.bmp?size=50x50&set=set1",
+    "color": "Khaki",
+    "presence": true,
+    "detail": "dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia"
+  }, {
+    "id": 42,
+    "model": "Forenza",
+    "make": "Suzuki",
+    "year": 2008,
+    "img": "https://robohash.org/quioptiosed.jpg?size=50x50&set=set1",
+    "color": "Indigo",
+    "presence": false,
+    "detail": "lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo"
+  }, {
+    "id": 43,
+    "model": "Tracker",
+    "make": "Geo",
+    "year": 1993,
+    "img": "https://robohash.org/omnisutatque.jpg?size=50x50&set=set1",
+    "color": "Red",
+    "presence": true,
+    "detail": "dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in"
+  }, {
+    "id": 44,
+    "model": "C30",
+    "make": "Volvo",
+    "year": 2011,
+    "img": "https://robohash.org/cupiditatequiimpedit.png?size=50x50&set=set1",
+    "color": "Violet",
+    "presence": true,
+    "detail": "eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce"
+  }, {
+    "id": 45,
+    "model": "Grand Cherokee",
+    "make": "Jeep",
+    "year": 2001,
+    "img": "https://robohash.org/molestiasdolorenon.png?size=50x50&set=set1",
+    "color": "Aquamarine",
+    "presence": true,
+    "detail": "donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in"
+  }, {
+    "id": 46,
+    "model": "Monterey",
+    "make": "Mercury",
+    "year": 2005,
+    "img": "https://robohash.org/autemperferendisofficiis.jpg?size=50x50&set=set1",
+    "color": "Violet",
+    "presence": true,
+    "detail": "lorem ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum"
+  }, {
+    "id": 47,
+    "model": "Grand Am",
+    "make": "Pontiac",
+    "year": 1985,
+    "img": "https://robohash.org/eosaliasvelit.jpg?size=50x50&set=set1",
+    "color": "Goldenrod",
+    "presence": true,
+    "detail": "proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur"
+  }, {
+    "id": 48,
+    "model": "G-Series G10",
+    "make": "Chevrolet",
+    "year": 1993,
+    "img": "https://robohash.org/solutareprehenderitquos.bmp?size=50x50&set=set1",
+    "color": "Khaki",
+    "presence": true,
+    "detail": "nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis"
+  }, {
+    "id": 49,
+    "model": "Camaro",
+    "make": "Chevrolet",
+    "year": 2012,
+    "img": "https://robohash.org/repellatvoluptatibusenim.bmp?size=50x50&set=set1",
+    "color": "Aquamarine",
+    "presence": true,
+    "detail": "in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel"
+  }, {
+    "id": 50,
+    "model": "Seville",
+    "make": "Cadillac",
+    "year": 1998,
+    "img": "https://robohash.org/magnivoluptatemomnis.png?size=50x50&set=set1",
+    "color": "Goldenrod",
+    "presence": true,
+    "detail": "ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer"
+  }, {
+    "id": 51,
+    "model": "FJ Cruiser",
+    "make": "Toyota",
+    "year": 2011,
+    "img": "https://robohash.org/iureperferendislaudantium.bmp?size=50x50&set=set1",
+    "color": "Indigo",
+    "presence": true,
+    "detail": "nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu"
+  }, {
+    "id": 52,
+    "model": "R-Class",
+    "make": "Mercedes-Benz",
+    "year": 2010,
+    "img": "https://robohash.org/quivelitmagni.jpg?size=50x50&set=set1",
+    "color": "Red",
+    "presence": true,
+    "detail": "magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur"
+  }, {
+    "id": 53,
+    "model": "XL-7",
+    "make": "Suzuki",
+    "year": 2005,
+    "img": "https://robohash.org/temporibusinet.bmp?size=50x50&set=set1",
+    "color": "Violet",
+    "presence": false,
+    "detail": "sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl"
+  }, {
+    "id": 54,
+    "model": "Wrangler",
+    "make": "Jeep",
+    "year": 2001,
+    "img": "https://robohash.org/corporiscumrerum.jpg?size=50x50&set=set1",
+    "color": "Crimson",
+    "presence": false,
+    "detail": "interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis"
+  }, {
+    "id": 55,
+    "model": "Grand Prix",
+    "make": "Pontiac",
+    "year": 1980,
+    "img": "https://robohash.org/saepedignissimosin.png?size=50x50&set=set1",
+    "color": "Indigo",
+    "presence": false,
+    "detail": "egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet"
+  }, {
+    "id": 56,
+    "model": "Rapide",
+    "make": "Aston Martin",
+    "year": 2010,
+    "img": "https://robohash.org/quivoluptateharum.jpg?size=50x50&set=set1",
+    "color": "Purple",
+    "presence": false,
+    "detail": "in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur"
+  }, {
+    "id": 57,
+    "model": "Sierra 2500",
+    "make": "GMC",
+    "year": 2000,
+    "img": "https://robohash.org/minimaipsumlaudantium.bmp?size=50x50&set=set1",
+    "color": "Goldenrod",
+    "presence": false,
+    "detail": "morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu"
+  }, {
+    "id": 58,
+    "model": "Ranger",
+    "make": "Ford",
+    "year": 2003,
+    "img": "https://robohash.org/nonmaioresqui.png?size=50x50&set=set1",
+    "color": "Teal",
+    "presence": false,
+    "detail": "nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque"
+  }, {
+    "id": 59,
+    "model": "Navigator L",
+    "make": "Lincoln",
+    "year": 2007,
+    "img": "https://robohash.org/recusandaeexautem.png?size=50x50&set=set1",
+    "color": "Yellow",
+    "presence": true,
+    "detail": "bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus"
+  }, {
+    "id": 60,
+    "model": "S80",
+    "make": "Volvo",
+    "year": 2000,
+    "img": "https://robohash.org/quiasaepeaut.jpg?size=50x50&set=set1",
+    "color": "Yellow",
+    "presence": true,
+    "detail": "luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo"
+  }, {
+    "id": 61,
+    "model": "Town & Country",
+    "make": "Chrysler",
+    "year": 2002,
+    "img": "https://robohash.org/atotamincidunt.jpg?size=50x50&set=set1",
+    "color": "Teal",
+    "presence": true,
+    "detail": "parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi"
+  }, {
+    "id": 62,
+    "model": "SJ",
+    "make": "Suzuki",
+    "year": 1988,
+    "img": "https://robohash.org/quoconsequaturipsum.png?size=50x50&set=set1",
+    "color": "Puce",
+    "presence": false,
+    "detail": "cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non"
+  }, {
+    "id": 63,
+    "model": "Crown Victoria",
+    "make": "Ford",
+    "year": 2002,
+    "img": "https://robohash.org/cumqueutqui.png?size=50x50&set=set1",
+    "color": "Aquamarine",
+    "presence": true,
+    "detail": "pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla"
+  }, {
+    "id": 64,
+    "model": "E-Series",
+    "make": "Ford",
+    "year": 1986,
+    "img": "https://robohash.org/molestiasaperiamfugit.png?size=50x50&set=set1",
+    "color": "Crimson",
+    "presence": false,
+    "detail": "pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet"
+  }, {
+    "id": 65,
+    "model": "Sephia",
+    "make": "Kia",
+    "year": 1995,
+    "img": "https://robohash.org/molestiaeenimmolestiae.bmp?size=50x50&set=set1",
+    "color": "Orange",
+    "presence": false,
+    "detail": "vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum"
+  }, {
+    "id": 66,
+    "model": "Ram Van 3500",
+    "make": "Dodge",
+    "year": 2003,
+    "img": "https://robohash.org/doloresillosint.png?size=50x50&set=set1",
+    "color": "Blue",
+    "presence": true,
+    "detail": "sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus"
+  }, {
+    "id": 67,
+    "model": "Supra",
+    "make": "Toyota",
+    "year": 1994,
+    "img": "https://robohash.org/veniameiusfacere.jpg?size=50x50&set=set1",
+    "color": "Crimson",
+    "presence": true,
+    "detail": "vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo"
+  }, {
+    "id": 68,
+    "model": "Avalon",
+    "make": "Toyota",
+    "year": 2012,
+    "img": "https://robohash.org/aperiamsitvoluptas.bmp?size=50x50&set=set1",
+    "color": "Blue",
+    "presence": false,
+    "detail": "turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce"
+  }, {
+    "id": 69,
+    "model": "Tempo",
+    "make": "Ford",
+    "year": 1993,
+    "img": "https://robohash.org/doloribusiustonesciunt.png?size=50x50&set=set1",
+    "color": "Khaki",
+    "presence": true,
+    "detail": "augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper"
+  }, {
+    "id": 70,
+    "model": "1500 Club Coupe",
+    "make": "GMC",
+    "year": 1997,
+    "img": "https://robohash.org/ullamnatuseum.jpg?size=50x50&set=set1",
+    "color": "Purple",
+    "presence": true,
+    "detail": "aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem"
+  }, {
+    "id": 71,
+    "model": "Beretta",
+    "make": "Chevrolet",
+    "year": 1995,
+    "img": "https://robohash.org/sinteumvoluptas.png?size=50x50&set=set1",
+    "color": "Indigo",
+    "presence": true,
+    "detail": "in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed"
+  }, {
+    "id": 72,
+    "model": "Astro",
+    "make": "Chevrolet",
+    "year": 2003,
+    "img": "https://robohash.org/voluptasconsecteturipsa.png?size=50x50&set=set1",
+    "color": "Violet",
+    "presence": true,
+    "detail": "mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel"
+  }, {
+    "id": 73,
+    "model": "Savana",
+    "make": "GMC",
+    "year": 2009,
+    "img": "https://robohash.org/estnamdebitis.png?size=50x50&set=set1",
+    "color": "Puce",
+    "presence": false,
+    "detail": "tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis"
+  }, {
+    "id": 74,
+    "model": "LeSabre",
+    "make": "Buick",
+    "year": 1990,
+    "img": "https://robohash.org/distinctionumquamquas.jpg?size=50x50&set=set1",
+    "color": "Violet",
+    "presence": false,
+    "detail": "tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices"
+  }, {
+    "id": 75,
+    "model": "Quest",
+    "make": "Nissan",
+    "year": 2011,
+    "img": "https://robohash.org/quiconsequaturitaque.jpg?size=50x50&set=set1",
+    "color": "Orange",
+    "presence": false,
+    "detail": "parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum"
+  }, {
+    "id": 76,
+    "model": "Esprit",
+    "make": "Lotus",
+    "year": 2001,
+    "img": "https://robohash.org/etsednatus.bmp?size=50x50&set=set1",
+    "color": "Maroon",
+    "presence": true,
+    "detail": "nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis"
+  }, {
+    "id": 77,
+    "model": "Mariner",
+    "make": "Mercury",
+    "year": 2011,
+    "img": "https://robohash.org/eiusconsectetursapiente.png?size=50x50&set=set1",
+    "color": "Indigo",
+    "presence": true,
+    "detail": "suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien"
+  }, {
+    "id": 78,
+    "model": "Wrangler",
+    "make": "Jeep",
+    "year": 1994,
+    "img": "https://robohash.org/similiquetemporequibusdam.jpg?size=50x50&set=set1",
+    "color": "Turquoise",
+    "presence": true,
+    "detail": "consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam"
+  }, {
+    "id": 79,
+    "model": "Tracker",
+    "make": "Geo",
+    "year": 1995,
+    "img": "https://robohash.org/idmaximenumquam.png?size=50x50&set=set1",
+    "color": "Aquamarine",
+    "presence": true,
+    "detail": "aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et"
+  }, {
+    "id": 80,
+    "model": "Outlander",
+    "make": "Mitsubishi",
+    "year": 2007,
+    "img": "https://robohash.org/fugitcommodiquae.jpg?size=50x50&set=set1",
+    "color": "Maroon",
+    "presence": true,
+    "detail": "volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus"
+  }, {
+    "id": 81,
+    "model": "Sable",
+    "make": "Mercury",
+    "year": 1994,
+    "img": "https://robohash.org/cummolestiaevelit.jpg?size=50x50&set=set1",
+    "color": "Purple",
+    "presence": true,
+    "detail": "morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula"
+  }, {
+    "id": 82,
+    "model": "F350",
+    "make": "Ford",
+    "year": 1993,
+    "img": "https://robohash.org/quosdoloresdebitis.png?size=50x50&set=set1",
+    "color": "Pink",
+    "presence": true,
+    "detail": "ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien"
+  }, {
+    "id": 83,
+    "model": "Imperial",
+    "make": "Chrysler",
+    "year": 1926,
+    "img": "https://robohash.org/omnisdoloremquequi.jpg?size=50x50&set=set1",
+    "color": "Blue",
+    "presence": true,
+    "detail": "volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate"
+  }, {
+    "id": 84,
+    "model": "Rio5",
+    "make": "Kia",
+    "year": 2008,
+    "img": "https://robohash.org/eanobisaut.jpg?size=50x50&set=set1",
+    "color": "Fuscia",
+    "presence": true,
+    "detail": "sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique"
+  }, {
+    "id": 85,
+    "model": "S80",
+    "make": "Volvo",
+    "year": 2005,
+    "img": "https://robohash.org/distinctioquonostrum.jpg?size=50x50&set=set1",
+    "color": "Goldenrod",
+    "presence": true,
+    "detail": "suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus"
+  }, {
+    "id": 86,
+    "model": "tC",
+    "make": "Scion",
+    "year": 2013,
+    "img": "https://robohash.org/utullamdicta.bmp?size=50x50&set=set1",
+    "color": "Khaki",
+    "presence": false,
+    "detail": "amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor"
+  }, {
+    "id": 87,
+    "model": "5 Series",
+    "make": "BMW",
+    "year": 1995,
+    "img": "https://robohash.org/velitpossimusmaiores.png?size=50x50&set=set1",
+    "color": "Puce",
+    "presence": true,
+    "detail": "placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero"
+  }, {
+    "id": 88,
+    "model": "Econoline E250",
+    "make": "Ford",
+    "year": 2000,
+    "img": "https://robohash.org/etutharum.png?size=50x50&set=set1",
+    "color": "Goldenrod",
+    "presence": false,
+    "detail": "nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam"
+  }, {
+    "id": 89,
+    "model": "Eurovan",
+    "make": "Volkswagen",
+    "year": 2003,
+    "img": "https://robohash.org/autcumquevel.jpg?size=50x50&set=set1",
+    "color": "Violet",
+    "presence": false,
+    "detail": "dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis"
+  }, {
+    "id": 90,
+    "model": "164",
+    "make": "Alfa Romeo",
+    "year": 1992,
+    "img": "https://robohash.org/illumcumdistinctio.bmp?size=50x50&set=set1",
+    "color": "Yellow",
+    "presence": false,
+    "detail": "aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla"
+  }, {
+    "id": 91,
+    "model": "Exige",
+    "make": "Lotus",
+    "year": 2012,
+    "img": "https://robohash.org/liberoquiest.jpg?size=50x50&set=set1",
+    "color": "Aquamarine",
+    "presence": true,
+    "detail": "non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc"
+  }, {
+    "id": 92,
+    "model": "Vibe",
+    "make": "Pontiac",
+    "year": 2007,
+    "img": "https://robohash.org/atquevoluptatemreiciendis.png?size=50x50&set=set1",
+    "color": "Goldenrod",
+    "presence": false,
+    "detail": "praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit"
+  }, {
+    "id": 93,
+    "model": "Miata MX-5",
+    "make": "Mazda",
+    "year": 1997,
+    "img": "https://robohash.org/maioresautmagni.png?size=50x50&set=set1",
+    "color": "Turquoise",
+    "presence": false,
+    "detail": "adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec"
+  }, {
+    "id": 94,
+    "model": "Tribeca",
+    "make": "Subaru",
+    "year": 2010,
+    "img": "https://robohash.org/quampossimusnon.bmp?size=50x50&set=set1",
+    "color": "Puce",
+    "presence": true,
+    "detail": "vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi"
+  }, {
+    "id": 95,
+    "model": "RAV4",
+    "make": "Toyota",
+    "year": 1998,
+    "img": "https://robohash.org/maximeestculpa.png?size=50x50&set=set1",
+    "color": "Orange",
+    "presence": true,
+    "detail": "odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus"
+  }, {
+    "id": 96,
+    "model": "Golf",
+    "make": "Volkswagen",
+    "year": 1993,
+    "img": "https://robohash.org/quisevenietquia.bmp?size=50x50&set=set1",
+    "color": "Red",
+    "presence": false,
+    "detail": "odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla"
+  }, {
+    "id": 97,
+    "model": "Maxima",
+    "make": "Nissan",
+    "year": 1993,
+    "img": "https://robohash.org/temporesintaut.png?size=50x50&set=set1",
+    "color": "Pink",
+    "presence": false,
+    "detail": "quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse"
+  }, {
+    "id": 98,
+    "model": "Avenger",
+    "make": "Dodge",
+    "year": 2010,
+    "img": "https://robohash.org/autquomaiores.png?size=50x50&set=set1",
+    "color": "Violet",
+    "presence": true,
+    "detail": "enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien"
+  }, {
+    "id": 99,
+    "model": "IS",
+    "make": "Lexus",
+    "year": 2001,
+    "img": "https://robohash.org/etnesciuntoptio.png?size=50x50&set=set1",
+    "color": "Indigo",
+    "presence": true,
+    "detail": "pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst"
+  }, {
+    "id": 100,
+    "model": "Bonneville",
+    "make": "Pontiac",
+    "year": 1998,
+    "img": "https://robohash.org/namfacilisdelectus.png?size=50x50&set=set1",
+    "color": "Mauv",
+    "presence": false,
+    "detail": "sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam"
+  }]
 }
