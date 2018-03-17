@@ -102,9 +102,11 @@
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
+    "@angular/cdk": "^5.2.4",
     "@angular/cli": "^1.7.1",
     "@angular/compiler-cli": "^5.2.7",
     "@angular/language-service": "^5.2.7",
+    "@angular/material": "^5.2.4",
     "@compodoc/compodoc": "^1.0.7",
     "@ngtools/webpack": "1.10.0",
     "@types/hammerjs": "^2.0.35",
