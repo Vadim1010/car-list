@@ -1,1 +1,15 @@
 @import '~styles/main';
+
+.car-list {
+  &__header {
+    text-align: center;
+  }
+
+  .mat-header-row{
+    .ng-star-inserted {
+      color: black;
+      font-weight: bolder;
+      font-size: 20px;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 ﻿import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { MatTableModule, MatSortModule } from '@angular/material';
 
 import { CarListComponent } from './car-list.component';
 import { UsersRoutingModule } from './car-list.routes';
@@ -10,10 +11,12 @@ import { CarListService } from './car-list.service';
 @NgModule({
   imports: [
     CommonModule,
-    UsersRoutingModule
+    UsersRoutingModule,
+    MatTableModule,
+    MatSortModule
   ],
   declarations: [
-    CarListComponent
+    CarListComponent,
   ],
   exports: [CarListComponent],
   providers: [

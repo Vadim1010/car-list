@@ -1,1 +1,37 @@
-<h2>car list</h2>
+<div class="car-list">
+  <h2 class="car-list__header">Car list</h2>
+  <div class="example-container mat-elevation-z8">
+    <mat-table #table [dataSource]="dataSource" matSort>
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;"
+               (click)="showDetail(row.id)">
+      </mat-row>
+
+      <ng-container matColumnDef="position">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> No.</mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.id}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="make">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> Make</mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.make}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="model">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> Model</mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.model}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="year">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> Year</mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.year}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="color">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> Color</mat-header-cell>
+        <mat-cell *matCellDef="let element" [style.color]="element.color"> {{element.color}}</mat-cell>
+      </ng-container>
+
+    </mat-table>
+  </div>
+</div>

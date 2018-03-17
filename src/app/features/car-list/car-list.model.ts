@@ -1,10 +1,10 @@
 export interface Car {
-  id: number;
+  id?: number;
   model: string;
   make: string;
-  year: number;
+  year: number | string;
   img: string;
   color: string;
-  presence: boolean;
+  presence: boolean | string;
   detail: string;
 }
