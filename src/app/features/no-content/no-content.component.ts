@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'no-content',
+  selector: 'cl-no-content',
   templateUrl: './no-content.component.html',
   styleUrls: [
       './no-content.component.scss'
