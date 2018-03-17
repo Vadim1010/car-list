@@ -2,7 +2,7 @@
 import { CommonModule } from '@angular/common';
 
 import { CarListComponent } from './car-list.component';
-import {UsersRoutingModule} from './car-list.routes';
+import { UsersRoutingModule } from './car-list.routes';
 
 @NgModule({
   imports: [

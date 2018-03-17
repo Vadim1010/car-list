@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'tt-car-list',
+  selector: 'cr-car-list',
   templateUrl: './car-list.component.html',
   styleUrls: ['./car-list.component.scss']
 })
