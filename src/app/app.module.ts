@@ -17,6 +17,8 @@ import { NoContentComponent, CarListModule, AboutModule } from './features';
 
 import '../styles/main.scss';
 import '../styles/headings.css';
+import './rxjs-operators';
+
 import { RouterModule } from '@angular/router';
 
 // Application wide providers
