@@ -4,14 +4,13 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { MatTableModule, MatSortModule } from '@angular/material';
 
 import { CarListComponent } from './car-list.component';
-import { UsersRoutingModule } from './car-list.routes';
-import { HttpClientInterceptor } from '../../core';
-import { CarListService } from './car-list.service';
+import { CarListRoutingModule } from './car-list.routes';
+import { HttpClientInterceptor, CarListService } from '../../core';
 
 @NgModule({
   imports: [
     CommonModule,
-    UsersRoutingModule,
+    CarListRoutingModule,
     MatTableModule,
     MatSortModule
   ],

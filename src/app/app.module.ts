@@ -13,7 +13,7 @@ import { environment } from 'environments/environment';
 import { AppComponent } from './app.component';
 import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppRoutes } from './app.routes';
-import { NoContentComponent, CarListModule, AboutModule } from './features';
+import { NoContentComponent, CarListModule, AboutModule, CarDetailModule } from './features';
 
 import '../styles/main.scss';
 import '../styles/headings.css';
@@ -45,6 +45,7 @@ const APP_PROVIDERS = [
     HttpClientModule,
     CarListModule,
     AboutModule,
+    CarDetailModule,
     RouterModule.forRoot(AppRoutes)
   ],
   /**

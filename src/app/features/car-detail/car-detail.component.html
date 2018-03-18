@@ -1,0 +1,14 @@
+<div class="car-detail"
+     *ngIf="carItem">
+  <div class="car-detail__img">
+    <img
+      src="{{carItem.img}}"
+      alt="{{carItem.model}}">
+  </div>
+  <p class="car-list__make">Make: {{carItem.make}}</p>
+  <p class="car-list__model">Model: {{carItem.model}}</p>
+  <p class="car-list__year">Year: {{carItem.year}}</p>
+  <p class="car-list__color">Color: <span [style.color]="carItem.color">{{carItem.color}}</span></p>
+  <p class="car-list__presence">Presence: {{carItem.presence}}</p>
+  <p class="car-list__detail">Detail: {{carItem.detail}}</p>
+</div>

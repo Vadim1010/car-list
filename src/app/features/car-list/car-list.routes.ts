@@ -12,4 +12,4 @@ export const CarListRoutes: Routes = [
   ],
   exports: [ RouterModule ]
 })
-export class UsersRoutingModule {}
+export class CarListRoutingModule {}

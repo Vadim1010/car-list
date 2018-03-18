@@ -7,7 +7,7 @@ import {
   HttpResponse
 } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
-import { Car } from '../features/car-list/car-list.model';
+import { Car } from '../shared';
 
 @Injectable()
 export class HttpClientInterceptor implements HttpInterceptor {
