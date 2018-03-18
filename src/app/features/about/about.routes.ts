@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { AboutComponent } from './about.component';
 
 export const AboutRoutes: Routes = [
-  {path: '', component: AboutComponent}
+  {path: 'about', component: AboutComponent}
 ];
 
 @NgModule({

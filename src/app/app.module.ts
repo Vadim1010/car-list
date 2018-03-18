@@ -45,6 +45,7 @@ const APP_PROVIDERS = [
     HttpClientModule,
     CarListModule,
     CarDetailModule,
+    AboutModule,
     RouterModule.forRoot(AppRoutes)
   ],
 
