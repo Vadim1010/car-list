@@ -7,14 +7,14 @@ import {
   HttpResponse
 } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
-import { Car } from '../shared';
+import { Car, Author } from '../shared';
 
 @Injectable()
 export class HttpClientInterceptor implements HttpInterceptor {
   constructor() {
   }
 
-  public intercept(req: HttpRequest<Car[]>, next: HttpHandler): Observable<HttpEvent<Car[]>> {
+  public intercept(req: HttpRequest<Car[] | Author>, next: HttpHandler): Observable<HttpEvent<Car[] | Author>> {
     const URL = req.url;
 
     //  Clone the request to add the new header.
