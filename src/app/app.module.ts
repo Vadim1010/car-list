@@ -44,13 +44,10 @@ const APP_PROVIDERS = [
     FormsModule,
     HttpClientModule,
     CarListModule,
-    AboutModule,
     CarDetailModule,
     RouterModule.forRoot(AppRoutes)
   ],
-  /**
-   * Expose our Services and Providers into Angular's dependency injection.
-   */
+
   providers: [
     environment.ENV_PROVIDERS,
     APP_PROVIDERS
