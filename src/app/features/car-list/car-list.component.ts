@@ -1,10 +1,11 @@
 import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import { MatSort, MatTableDataSource } from '@angular/material';
+import { Subscription } from 'rxjs/Subscription';
 
 import { CarListService } from '../../core';
 import { Car } from '../../shared';
-import { MatSort, MatTableDataSource } from '@angular/material';
-import { Subscription } from 'rxjs/Subscription';
+import { DISPLAYED_COLUMNS } from './car-list.config';
 
 @Component({
   selector: 'cl-car-list',
@@ -12,8 +13,8 @@ import { Subscription } from 'rxjs/Subscription';
   styleUrls: ['./car-list.component.scss']
 })
 export class CarListComponent implements OnInit, OnDestroy {
-  public displayedColumns = ['position', 'make', 'model', 'year', 'color'];
-  public dataSource;
+  public displayedColumns: string[] = DISPLAYED_COLUMNS;
+  public dataSource: MatTableDataSource<Car>;
 
   private subscriptions: Subscription[] = [];
 
