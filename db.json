@@ -1004,6 +1004,7 @@
   "author": {
     "about": {
       "fullName": "Vadim Ostapets",
+      "img": "https://lh3.googleusercontent.com/Vd7jgGRtZwYBQ9qunzkFKv2fHP5k0evASk2HQ6hCOesOT5OVNrqGiX_5jMZdMUakw2RuO7nnBhGy=s454-rw-no",
       "phone": "+380 50 921 69 18",
       "email": "vv342915007@gmail.com",
       "git": "https://github.com/Vadim1010"
@@ -1083,10 +1084,10 @@
         "teamSize": "Front-End team - 1, Back-End team - 1, TL, BA, PO",
         "projectRole": "Software Engineer",
         "tasksPerformed": [
-          "made build - webpack + angular 4 + TypeScript",
-          "create new feature",
+          "Content manager",
+          "create new Card for Ads",
           "bug fixing",
-          "unit testing"
+          "schema.org"
         ],
         "environment": [
           "Bootsrtap",

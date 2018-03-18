@@ -1,1 +1,34 @@
 @import '~styles/main';
+
+.about {
+  @include box-shadow();
+
+  margin-top: 15px;
+  &__img {
+    @include display-flex($justify: center);
+
+    img {
+      border-radius: 50%;
+      border: 1px solid #000;
+      width: 250px;
+      height: 250px;
+    }
+  }
+  &__author {
+    margin: 0 auto;
+
+    .author {
+      &__title {
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+  }
+  mat-accordion {
+    margin-top: 10px;
+
+    mat-panel-title {
+      @include display-flex($justify: center);
+    }
+  }
+}

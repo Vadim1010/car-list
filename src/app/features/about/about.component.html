@@ -1,2 +1,81 @@
-<h2>about</h2>
+<div class="about" *ngIf="author">
+  <div class="about__img">
+    <img src="{{author.about.img}}" alt="{{author.about.fullName}}">
+  </div>
 
+  <div class="about__author author">
+    <h2 class="author__title">Contact Information</h2>
+    <p class="author__name"><span class="lead">Full name:</span> {{author.about.fullName}}</p>
+    <p class="author_phone"><span class="lead">Phone:</span>
+      <a href="{{'tel:' + author.about.phone}}">{{author.about.phone}}</a>
+    </p>
+    <p class="author_email"><span class="lead">E-mail:</span>
+      <a href="{{'mailto:' + author.about.email}}">{{author.about.email}}</a>
+    </p>
+    <p class="author_git"><span class="lead">Git:</span>
+      <a target="_blank" href="{{author.about.git}}">{{author.about.git}}</a></p>
+  </div>
+
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false"
+                         class="about__skills">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h2>Skills</h2>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="skills">
+        <p>
+          <b>My hard skills:</b>
+          <span *ngFor="let skill of author.skills.hard"> {{skill}};</span>
+        </p>
+
+        <p>
+          <b>My soft skills:</b>
+          <span *ngFor="let skill of author.skills.soft"> {{skill}};</span>
+        </p>
+
+        <p>
+          <b>Tools:</b>
+          <span *ngFor="let tool of author.skills.tools"> {{tool}};</span>
+        </p>
+
+        <p>
+          <b>Software Construction:</b>
+          <span *ngFor="let skill of author.skills.software"> {{skill}};</span>
+        </p>
+
+        <p>
+          <b>Spoken Languages:</b>
+          <span *ngFor="let language of author.skills.languages"> {{language}};</span>
+        </p>
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false"
+                         class="about__experiences">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h2>Experiences</h2>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="experiences">
+        <cl-experience [experiences]="author.experiences"></cl-experience>
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false"
+                         class="about__educations educations">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h2>Educations</h2>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <cl-education [educations]="author.educations"></cl-education>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+</div>

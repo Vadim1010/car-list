@@ -1,0 +1,22 @@
+<div class="education"
+     *ngFor="let education of educations">
+
+  <div class="education__institution">
+    <p><span class="lead">Institution: </span> {{education.institution}}</p>
+  </div>
+
+  <p class="experience__period"><span class="lead">Period: </span>{{education.period}}</p>
+
+  <div class="education__specialization">
+    <p><span class="lead">Specialization: </span> {{education.specialization}}</p>
+  </div>
+
+  <div class="education__upSkills"
+       *ngIf="education.upSkills.length">
+    <p class="lead">Working Skills:
+    <ul *ngFor="let skill of education.upSkills">
+      <li>{{skill}}</li>
+    </ul>
+  </div>
+
+</div>

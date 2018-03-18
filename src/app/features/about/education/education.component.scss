@@ -1,0 +1,7 @@
+@import '~styles/main';
+
+.education {
+  @include box-shadow();
+
+  margin: 15px 0;
+}

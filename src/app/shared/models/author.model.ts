@@ -1,6 +1,7 @@
 export interface Author {
   about: {
     fullName: string;
+    img: string;
     phone: string;
     email: string;
     git: string
@@ -13,7 +14,7 @@ export interface Author {
     languages: string[];
   };
   experiences: Experience[];
-  educations: Educations[];
+  educations: Education[];
 }
 
 export interface Experience {
@@ -26,7 +27,7 @@ export interface Experience {
   period: string;
 }
 
-export interface Educations {
+export interface Education {
   institution: string;
   period: number;
   specialization: string;
